@@ -29,11 +29,7 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/src/Model
 'path' => __DIR__ . '/db.sqlite',
 );*/
 
-$conn = array('driver' => 'pdo_mysql',
-'host'=> 'localhost',
-'dbname' => 'exercicioslim',
-'user' => 'root',
-'password' => '');
+$conn = array('driver' => 'pdo_mysql','host'=> 'localhost','dbname' => 'exercicioslim','user' => 'root','password' => '');
 
 /**
 * Instância do Entity Manager
